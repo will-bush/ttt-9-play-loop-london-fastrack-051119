@@ -39,7 +39,7 @@ end
 def play(board)
   go = 0
   while go < 8
-  i += 1
+  go += 1
   turn(board)
 end
 end
